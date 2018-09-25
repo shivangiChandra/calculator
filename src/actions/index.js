@@ -1,0 +1,5 @@
+export const UPDATE_OPERAND = 'UPDATE_OPERAND';
+export const UPDATE_OPERATOR = 'UPDATE_OPERATOR';
+export const CLEAR = 'CLEAR';
+export const CALCULATE_RESULT = 'CALCULATE_RESULT';
+

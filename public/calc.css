@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: inline;
+    position: relative;
+    float: left;
+    color: #333;
+    font-weight: bold;
+}
+
+header {
+    width: 100%;
+    background-color: #1795d4;
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+
+header img {
+    width: 150px;
+    height: 40px;
+}
+
+.mainCmp {
+    padding: 1.5em;
+    width: 60%;
+}
+
+.key {
+    border: thin solid #333;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.numberPad {
+    width: 50%;
+    padding: 0.5em;
+}
+
+.operatorPad {
+    padding: 0.5em;
+    width: 33%;
+}
+
+.display {
+    display: block;
+    clear: both;
+    padding: 0.9em 1em;
+    margin: 2em 0;
+    border: thin solid #333;
+}
+
+@media only screen and (max-width: 600px) {
+    .numberPad {
+        width: 66%
+    }
+
+    .operatorPad {
+        width: 25%
+    }
+
+    .key {
+        padding: 2em;
+        width: 3em;
+    }
+
+    .mainCmp {
+        width: 100%
+    }
+}
+
+@media only screen and (max-width: 1299px ) {
+    .key {
+        padding: 2.5em;
+        width: 3em;
+    }
+
+    .mainCmp {
+        width: 100%
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .key {
+        padding: 3em;
+        width: 5em;
+    }
+}
